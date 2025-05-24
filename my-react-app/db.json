@@ -1,0 +1,92 @@
+
+{
+  "healthStatus": [
+    {
+      "id": "heart",
+      "name": "Heart",
+      "status": "Healthy",
+      "indicatorPosition": { "top": "45%", "left": "50%" } 
+    },
+    {
+      "id": "lungs",
+      "name": "Lungs",
+      "status": "Healthy",
+      "indicatorPosition": { "top": "30%", "left": "40%" }
+    },
+    {
+      "id": "leg",
+      "name": "Leg",
+      "status": "Healthy",
+      "indicatorPosition": { "top": "70%", "left": "55%" }
+    }
+  ],
+  "bodyPartDetails": [
+    {
+      "id": "lungs",
+      "name": "Lungs",
+      "date": "28 Oct 2021",
+      "progress": 75,
+      "detailsLink": "#"
+    },
+    {
+      "id": "teeth",
+      "name": "Teeth",
+      "date": "28 Oct 2021",
+      "progress": 50,
+      "detailsLink": "#"
+    },
+    {
+      "id": "bone",
+      "name": "Bone",
+      "date": "28 Oct 2021",
+      "progress": 60,
+      "detailsLink": "#"
+    }
+  ],
+  "activityData": [
+    { "day": "Mon", "value": 10 },
+    { "day": "Tues", "value": 20 },
+    { "day": "Wed", "value": 15 },
+    { "day": "Thurs", "value": 25 },
+    { "day": "Fri", "value": 18 },
+    { "day": "Sat", "value": 22 },
+    { "day": "Sun", "value": 12 }
+  ],
+  "calendarAppointments": [
+    { "date": "25", "day": "Mon", "times": ["10:00", "11:00", "12:00"] },
+    { "date": "26", "day": "Tues", "times": ["08:00", "09:00"] },
+    { "date": "27", "day": "Wed", "times": ["10:00", "13:00"] },
+    { "date": "28", "day": "Thurs", "times": ["11:00", "13:00", "14:00"] },
+    { "date": "29", "day": "Fri", "times": ["15:00", "16:00"] },
+    { "date": "30", "day": "Sat", "times": ["09:00", "10:00"] },
+    { "date": "31", "day": "Sun", "times": ["09:00", "11:00"] }
+  ],
+  "currentAppointments": [
+    {
+      "type": "Dentist",
+      "time": "09:00-11:00",
+      "doctor": "Dr. Cameron Williamson"
+    },
+    {
+      "type": "Physiotherapy Appointment",
+      "time": "11:00-12:00",
+      "doctor": "Dr. Kevin Djymes"
+    }
+  ],
+  "upcomingSchedule": [
+    {
+      "day": "Thursday",
+      "events": [
+        { "name": "Health checkup complete", "time": "11:00 AM", "icon": "heart" },
+        { "name": "Ophthalmologist", "time": "14:00 PM", "icon": "eye" }
+      ]
+    },
+    {
+      "day": "Saturday",
+      "events": [
+        { "name": "Cardiologist", "time": "12:00 AM", "icon": "heart" },
+        { "name": "Neurologist", "time": "16:00 PM", "icon": "brain" }
+      ]
+    }
+  ]
+}
