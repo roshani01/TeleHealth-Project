@@ -8,7 +8,14 @@
     "serve": "vite preview"
   },
   "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^6.7.2",
+    "@fortawesome/free-brands-svg-icons": "^6.7.2",
+    "@fortawesome/free-regular-svg-icons": "^6.7.2",
+    "@fortawesome/free-solid-svg-icons": "^6.7.2",
+    "@fortawesome/react-fontawesome": "^0.2.2",
     "@vitejs/plugin-react": "^4.5.0",
+    "fraction.js": "^5.2.2",
+    "mathjs": "^14.5.0",
     "react": "^18.0.0",
     "react-dom": "^18.0.0"
   },
